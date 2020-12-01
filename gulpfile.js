@@ -1,5 +1,5 @@
 // Ścieżka do aktualnie wykonywanego zadania
-const entryPath = "";
+const entryPath = ".";
 
 const gulp = require("gulp");
 const sass = require("gulp-sass");
@@ -10,14 +10,12 @@ const browserSync = require("browser-sync").create();
 
 function compileSass(done) {
     gulp
-        //entryPath +
-        .src("/scss/main.scss")
+        .src(entryPath +"/scss/main.scss")
         .pipe(sourcemaps.init())
         .pipe(sass({outputStyle: "expanded"}).on("error", sass.logError))
         .pipe(autoprefixer())
         .pipe(sourcemaps.write("."))
-        //entryPath +
-        .pipe(gulp.dest("/css"));
+        .pipe(gulp.dest(entryPath +"/css"));
 
     done();
 }

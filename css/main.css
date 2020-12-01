@@ -1,0 +1,123 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.4rem;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-header {
+  width: 100%;
+  height: calc(100vh + 100px);
+}
+
+.main-header__menu {
+  width: 100%;
+  height: 10rem;
+  background: linear-gradient(180deg, black 0%, rgba(255, 255, 255, 0) 100%);
+  font-family: inherit;
+  color: #f3f3f2;
+}
+
+.main-header__menu .container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.header-menu__logo {
+  margin: auto 0;
+  font-family: inherit;
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+
+.header-menu__menu {
+  display: flex;
+  border-right: 1px solid #f3f3f2;
+  margin: auto 0;
+  height: 50%;
+}
+
+.menu-list a {
+  margin: auto 20px;
+  line-height: 5rem;
+  font-family: inherit;
+  color: #f3f3f2;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.menu-list a:hover {
+  color: #f58621;
+  border-bottom: 1px solid #f58621;
+}
+
+.social {
+  display: flex;
+  margin: auto 0;
+  height: 25%;
+}
+.social .social-img {
+  height: 2.5rem;
+  margin: auto 1rem;
+}
+/*# sourceMappingURL=main.css.map */
