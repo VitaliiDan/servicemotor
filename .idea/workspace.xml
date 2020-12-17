@@ -11,17 +11,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="623c9c94-5c36-418b-92f8-c28e6ebad9a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/instragram.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/layouts/headerswiper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/lib/reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/variables/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/swiper/audiA7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/swiper/bmw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/swiper/mercedes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/general/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/layout/_headerswiper.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/servicemotor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/servicemotor.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/social/Facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/instragram.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/social/instragram.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/layouts/headermenu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layout/_headermenu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/layouts/headerswiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/lib/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/general/_reset.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/variables/variables.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +59,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -61,7 +68,26 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scss/general" />
+      <recent name="$PROJECT_DIR$/img/social" />
+      <recent name="$PROJECT_DIR$/img/swiper" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -74,7 +100,10 @@
       <workItem from="1606564343591" duration="3478000" />
       <workItem from="1606676379615" duration="3664000" />
       <workItem from="1606818926423" duration="97000" />
-      <workItem from="1606819069005" duration="4591000" />
+      <workItem from="1606819069005" duration="15038000" />
+      <workItem from="1607001348316" duration="290000" />
+      <workItem from="1607191427928" duration="60000" />
+      <workItem from="1608220682172" duration="256000" />
     </task>
     <servers />
   </component>
@@ -95,5 +124,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

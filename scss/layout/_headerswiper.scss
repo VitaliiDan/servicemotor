@@ -1,0 +1,84 @@
+.main-header__swiper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: $headerHeight;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  img {
+    max-width: 100%;
+    object-fit: contain;
+  }
+  .swiper-content{
+    position: absolute;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    z-index: 30;
+    h1 {
+      color: $secondFontColor;
+      font-family: inherit;
+      font-size: 10rem;
+      font-weight: bolder;
+    }
+    p {
+      color: $mainFontcolor;
+      font-family: inherit;
+      font-size: 5rem;
+      font-weight: normal;
+      margin: 20px 0;
+    }
+    button {
+      padding: 10px 30px;
+      background: $secondFontColor;
+      border-radius: 10px;
+      border: none;
+      box-shadow: 2px 2px 20px $secondFontColor;
+      a {
+        text-decoration: none;
+        color: $darkFontColor;
+      }
+      &:hover {
+        background: $darkFontColor;
+        box-shadow: 2px 2px 20px $darkFontColor;
+      }
+      &:hover a{
+        color: #f58621;
+      }
+
+    }
+  }
+  .merc {
+    top: 20%;
+    left: 10%;
+  }
+  .bmw {
+    top: 15%;
+    left: 35%;
+  }
+  .audi {
+    top: 20%;
+    left: 20%;
+  }
+  &:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: $headerHeight;
+    background: black;
+    opacity: 25%;
+    z-index: 25;
+  }
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after, {
+  color: $secondFontColor;
+  font-weight: bolder;
+  //z-index: 100;
+}

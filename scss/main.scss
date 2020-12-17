@@ -1,5 +1,5 @@
-@import "./lib/reset";
-@import "./variables/variables";
+@import "general/reset";
+@import "general/variables";
 
 
 html {
@@ -19,6 +19,11 @@ body {
   margin: 0 auto;
 }
 
-@import "./layouts/headermenu";
+.main-header {
+  width: 100%;
+  height: $headerHeight;
+  position: relative;
+}
 
-
+@import "layout/headermenu";
+@import "layout/headerswiper";
