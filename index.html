@@ -3,71 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <title>ServiceMOTOR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"/>
 </head>
 <body>
-<!--Header-->
-<header class="main-header">
-    <!--    Header-menu - START -->
-    <div class="main-header__menu">
-        <div class="container">
-            <div class="header-menu__logo">
-                <span>ServiceMOTOR</span>
+
+<header class="header">
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img src="./img/swiper/mercedes.jpg" alt="mercedes">
+                <div class="swiper-content merc">
+                    <h2>Title - 1</h2>
+                    <p>Text - 1</p>
+                    <button><a href="#">BOOKING</a></button>
+                </div>
             </div>
-            <ul class="header-menu__menu">
-                <li class="menu-list"><a href="#">home</a></li>
-                <li class="menu-list"><a href="#">services</a></li>
-                <li class="menu-list"><a href="#">about us</a></li>
-                <li class="menu-list"><a href="#">contact us</a></li>
+            <div class="swiper-slide">
+                <img src="./img/swiper/bmw.jpg" alt="bmw">
+                <div class="swiper-content bmw">
+                    <h2>Title - 1</h2>
+                    <p>Text - 1</p>
+                    <button><a href="#">BOOKING</a></button>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/swiper/audiA7.jpg" alt="audi">
+                <div class="swiper-content audi">
+                    <h2>Title - 1</h2>
+                    <p>Text - 1</p>
+                    <button><a href="#">BOOKING</a></button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="header__container">
+        <nav class="header__menu">
+            <div class="header__logo"><span>Servis</span>Motor</div>
+            <ul class="header__li">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Geo-Position</a></li>
             </ul>
-            <div class="social">
-                <a href="#"><img src="img/social/Facebook.png" class="social-img" alt="facebook"></a>
-                <a href="#"><img src="img/social/instragram.jpg" class="social-img" alt="instagram"></a>
+            <div class="header__social">
+                <img src="./img/social/Facebook.png" alt="">
+                <img src="./img/social/instragram.jpg" alt="">
             </div>
-        </div>
+        </nav>
     </div>
-    <!--    Header-menu - END -->
-    <!--    Swiper - START-->
-    <div class="main-header__swiper">
-        <!-- Slider main container -->
-        <div class="swiper-container">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                    <img src="./img/swiper/mercedes.jpg" alt="mercedes">
-                    <div class="swiper-content merc">
-                        <h1>Title - 1</h1>
-                        <p>Text - 1</p>
-                        <button><a href="#">BOOKING</a></button>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <img src="./img/swiper/bmw.jpg" alt="bmw">
-                    <div class="swiper-content bmw">
-                        <h1>Title - 1</h1>
-                        <p>Text - 1</p>
-                        <button><a href="#">BOOKING</a></button>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <img src="./img/swiper/audiA7.jpg" alt="audi">
-                    <div class="swiper-content audi">
-                        <h1>Title - 1</h1>
-                        <p>Text - 1</p>
-                        <button><a href="#">BOOKING</a></button>
-                    </div>
-                </div>
-            </div>
-            <!--        navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-    </div>
-    <!--    Swiper - END-->
 </header>
+
 
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

@@ -1,29 +1,5 @@
 @import "general/reset";
 @import "general/variables";
+@import "general/all";
 
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-family:  system-ui, -apple-system, "Segoe UI", Roboto,
-  "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-  "Noto Color Emoji";
-  font-size: 1.4rem;
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.main-header {
-  width: 100%;
-  height: $headerHeight;
-  position: relative;
-}
-
-@import "layout/headermenu";
-@import "layout/headerswiper";
+@import "layout/header";

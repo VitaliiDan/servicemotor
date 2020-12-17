@@ -11,23 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="623c9c94-5c36-418b-92f8-c28e6ebad9a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/swiper/audiA7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/swiper/bmw.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/swiper/mercedes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/general/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/layout/_headerswiper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/servicemotor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/servicemotor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/general/_all.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/layout/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/social/Facebook.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/instragram.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/social/instragram.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layouts/headermenu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layout/_headermenu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layouts/headerswiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/lib/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/general/_reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/general/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/general/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/layout/_headermenu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/layout/_headerswiper.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/variables/variables.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +37,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1kuxaelDt2hZGCeuduz2MEVzBpL" />
   <component name="ProjectLevelVcsManager">
@@ -103,7 +99,7 @@
       <workItem from="1606819069005" duration="15038000" />
       <workItem from="1607001348316" duration="290000" />
       <workItem from="1607191427928" duration="60000" />
-      <workItem from="1608220682172" duration="256000" />
+      <workItem from="1608220682172" duration="13743000" />
     </task>
     <servers />
   </component>

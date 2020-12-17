@@ -1,0 +1,154 @@
+.header {
+  .swiper-container {
+    .swiper-wrapper {
+      width: 100%;
+      height: $headerHeight;
+
+      .swiper-slide {
+        position: relative;
+
+        img {
+          position: absolute;
+          object-fit: cover;
+          height: 100%;
+          width: 100%;
+          left: 0;
+          top: 0;
+        }
+
+        .swiper-content {
+          position: absolute;
+          color: $secondFontColor;
+          font-family: inherit;
+          @media (max-width: 399px) {
+            top: 40%;
+            left: 20%;
+          }
+          @media (min-width: 400px) and (max-width: 899px) {
+            top: 30%;
+            left: 20%;
+          }
+          @media (min-width: 900px) {
+            top: 35%;
+            left: 25%;
+          }
+
+          h2 {
+            @media (max-width: 399px) {
+              font-size: 40px;
+              font-weight: bolder;
+            }
+            @media (min-width: 400px) and (max-width: 899px) {
+              font-size: 90px;
+              font-weight: bolder;
+            }
+            @media (min-width: 900px) {
+              font-size: 90px;
+              font-weight: bolder;
+            }
+          }
+
+          p {
+            @media (max-width: 399px) {
+              font-size: 30px;
+            }
+            @media (min-width: 400px) and (max-width: 899px) {
+              font-size: 50px;
+            }
+            @media (min-width: 900px) {
+              font-size: 60px;
+            }
+          }
+
+          button {
+            padding: 5px 15px;
+            background: $secondFontColor;
+            border: none;
+            border-radius: 15px;
+            margin-top: 10px;
+            box-shadow: 3px 3px 10px $secondFontColor;
+            transition: 1s;
+
+            &:hover {
+              transform: scale(1.1);
+            }
+
+            a {
+              text-decoration: none;
+              color: #000;
+
+              @media (max-width: 399px) {
+                font-size: 20px;
+              }
+              @media (min-width: 400px) and (max-width: 899px) {
+                font-size: 25px;
+              }
+              @media (min-width: 900px) {
+                font-size: 30px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &__container {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+  }
+
+  &__menu {
+    height: 100px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__logo {
+    color: $mainFontcolor;
+    font-size: 50px;
+    font-weight: bold;
+    span {
+      color: $secondFontColor;
+      font-weight: bolder;
+    }
+  }
+
+  &__li {
+    display: flex;
+    flex-flow: row wrap;
+    @media (max-width: 899px) {
+      display: none;
+    }
+
+    li {
+      margin: 0 20px;
+    }
+
+    a {
+      font-size: 20px;
+      text-decoration: none;
+      color: $mainFontcolor;
+      font-weight: bold;
+    }
+  }
+
+  &__social {
+    @media (max-width: 399px) {
+      display: none;
+    }
+    img {
+      margin: 0 10px;
+      width: 20px;
+    }
+  }
+}
+
