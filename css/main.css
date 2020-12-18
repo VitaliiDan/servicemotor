@@ -56,6 +56,9 @@ body {
   font-size: 1.4rem;
 }
 
+.header {
+  margin-bottom: -100px;
+}
 .header .swiper-container .swiper-wrapper {
   width: 100%;
   height: calc(100vh + 100px);
@@ -74,7 +77,7 @@ body {
 }
 .header .swiper-container .swiper-wrapper .swiper-slide .swiper-content {
   position: absolute;
-  color: #f58621;
+  color: #FF7400;
   font-family: inherit;
 }
 @media (max-width: 399px) {
@@ -130,11 +133,11 @@ body {
 }
 .header .swiper-container .swiper-wrapper .swiper-slide .swiper-content button {
   padding: 5px 15px;
-  background: #f58621;
+  background: #FF7400;
   border: none;
   border-radius: 15px;
   margin-top: 10px;
-  box-shadow: 3px 3px 10px #f58621;
+  box-shadow: 3px 3px 10px #FF7400;
   transition: 1s;
 }
 .header .swiper-container .swiper-wrapper .swiper-slide .swiper-content button:hover {
@@ -182,7 +185,7 @@ body {
   font-weight: bold;
 }
 .header__logo span {
-  color: #f58621;
+  color: #FF7400;
   font-weight: bolder;
 }
 .header__li {
@@ -203,6 +206,9 @@ body {
   color: #f3f3f2;
   font-weight: bold;
 }
+.header__li a:hover {
+  color: #FF7400;
+}
 @media (max-width: 399px) {
   .header__social {
     display: none;
@@ -211,5 +217,201 @@ body {
 .header__social img {
   margin: 0 10px;
   width: 20px;
+}
+
+.content1 {
+  margin: 0 auto;
+  width: 80%;
+  z-index: 2;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.content1__card {
+  min-width: 250px;
+  height: 250px;
+  margin-bottom: 50px;
+  position: relative;
+  perspective: 1000px;
+  z-index: 3;
+}
+.content1__card:hover .front {
+  transform: rotateY(180deg);
+}
+.content1__card:hover .back {
+  transform: rotateY(360deg);
+}
+.content1__card .front, .content1__card .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  border-radius: 10px;
+}
+.content1__card .front h3, .content1__card .back h3 {
+  font-weight: bolder;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.content1__card .front h4, .content1__card .back h4 {
+  font-size: 20px;
+}
+.content1__card .front {
+  background: #FF7400;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #f3f3f2;
+  padding: 20px;
+}
+.content1__card .front img {
+  width: 50px;
+  height: 50px;
+}
+.content1__card .back {
+  background: #000;
+  border: 2px solid #FF7400;
+  transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  color: #f3f3f2;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+.content1__card .back p {
+  margin-top: 10px;
+}
+
+.geo {
+  padding-top: 20px;
+  width: 100%;
+  background: #322E2E;
+  color: #f3f3f2;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.geo span {
+  color: #FF7400;
+  font-weight: bolder;
+}
+.geo__wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  padding: 50px;
+}
+@media (max-width: 399px) {
+  .geo__wrapper {
+    padding: 10px;
+  }
+}
+@media (min-width: 400px) and (max-width: 899px) {
+  .geo__wrapper {
+    padding: 10px;
+  }
+}
+.geo__left {
+  height: 0;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  position: relative;
+  width: 100%;
+}
+.geo__right {
+  text-align: left;
+  padding: 50px;
+}
+@media (min-width: 400px) and (max-width: 899px) {
+  .geo__right {
+    text-align: center;
+    padding: 20px;
+  }
+}
+@media (max-width: 399px) {
+  .geo__right {
+    padding: 5px;
+  }
+}
+.geo__right h3 {
+  font-size: 30px;
+  margin: 50px 0;
+}
+@media (min-width: 400px) and (max-width: 899px) {
+  .geo__right h3 {
+    margin: 0;
+  }
+}
+@media (max-width: 399px) {
+  .geo__right h3 {
+    font-size: 25px;
+    margin: 0;
+  }
+}
+.geo__right h4 {
+  font-size: 30px;
+}
+@media (max-width: 399px) {
+  .geo__right h4 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 5px 0;
+  }
+}
+.geo__right span {
+  font-size: 20px;
+}
+@media (max-width: 399px) {
+  .geo__right span {
+    font-size: 15px;
+    font-weight: normal;
+  }
+}
+.geo__frame {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+@media (max-width: 399px) {
+  .geo__left, .geo__right {
+    width: 100%;
+  }
+}
+@media (min-width: 400px) and (max-width: 899px) {
+  .geo__left, .geo__right {
+    width: 100%;
+  }
+}
+@media (min-width: 900px) {
+  .geo__left, .geo__right {
+    width: 50%;
+  }
+}
+.geo__social img {
+  margin: 50px;
+  width: 50px;
+  height: 50px;
+}
+@media (min-width: 400px) and (max-width: 899px) {
+  .geo__social img {
+    margin: 20px;
+  }
+}
+@media (max-width: 399px) {
+  .geo__social img {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

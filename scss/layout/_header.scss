@@ -1,4 +1,5 @@
 .header {
+  margin-bottom: -100px;
   .swiper-container {
     .swiper-wrapper {
       width: 100%;
@@ -138,6 +139,9 @@
       text-decoration: none;
       color: $mainFontcolor;
       font-weight: bold;
+      &:hover {
+        color: $secondFontColor;
+      }
     }
   }
 

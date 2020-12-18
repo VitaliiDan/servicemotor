@@ -1,0 +1,113 @@
+.geo {
+  padding-top: 20px;
+  width: 100%;
+  background: $darkFontColor;
+  color: $mainFontcolor;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+
+  span {
+    color: $secondFontColor;
+    font-weight: bolder;
+  }
+
+  &__wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    padding: 50px;
+    @media (max-width: 399px) {
+      padding: 10px;
+    }
+    @media (min-width: 400px) and (max-width: 899px) {
+      padding: 10px;
+    }
+  }
+
+  &__left {
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 */
+    position: relative;
+    width: 100%;
+  }
+
+  &__right {
+    text-align: left;
+    padding: 50px;
+    @media (min-width: 400px) and (max-width: 899px) {
+      text-align: center;
+      padding: 20px;
+    }
+    @media (max-width: 399px) {
+      padding: 5px;
+    }
+
+    h3 {
+      font-size: 30px;
+      margin: 50px 0;
+      @media (min-width: 400px) and (max-width: 899px) {
+        margin: 0;
+      }
+      @media (max-width: 399px) {
+        font-size: 25px;
+        margin: 0;
+      }
+    }
+
+    h4 {
+      font-size: 30px;
+      @media (max-width: 399px) {
+        font-size: 20px;
+        font-weight: normal;
+        margin: 5px 0;
+      }
+    }
+
+    span {
+      font-size: 20px;
+      @media (max-width: 399px) {
+        font-size: 15px;
+        font-weight: normal;
+      }
+    }
+  }
+
+  &__frame {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  &__left, &__right {
+    @media (max-width: 399px) {
+      width: 100%;
+    }
+    @media (min-width: 400px) and (max-width: 899px) {
+      width: 100%;
+    }
+    @media (min-width: 900px) {
+      width: 50%;
+    }
+  }
+
+  &__social {
+    img {
+      margin: 50px;
+      width: 50px;
+      height: 50px;
+      @media (min-width: 400px) and (max-width: 899px) {
+        margin: 20px;
+      }
+      @media (max-width: 399px) {
+        margin: 5px;
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}
